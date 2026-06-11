@@ -32,6 +32,9 @@ End-to-end analysis of a fictional handmade goods marketplace ("Bespoke") explor
 - **Three interventions proposed:** recalibrate delivery estimates using historical shipping data, introduce a verified fast-shipper badge (avg ship time < 3 days, rating > 4★), and audit carrier performance by region to address the remaining 43% of carrier-caused delays.
 - **The 1-star classifier is intentionally limited.** Built on pre-transaction signals only (listing quality, tenure, price tier), it achieves AUC ~0.57 (near chance). This is itself a finding: observable artisan characteristics have little predictive power without delivery performance data, confirming that delivery behavior is the dominant driver of poor outcomes rather than anything identifiable upfront.
 
+## Presentation
+[View slide deck](https://github.com/stellajisunglee/Cornell_DataFest/blob/main/Datafest_Bespoke_Analysis.pdf)
+
 ## Repo Structure
 
 ```
