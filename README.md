@@ -4,7 +4,7 @@
 
 ## Overview
 
-End-to-end analysis of a fictional handmade goods marketplace ("Bespoke") exploring what drives customer satisfaction, artisan performance, and platform GMV. Built over a 48-hour competition sprint.
+End-to-end analysis of a fictional handmade goods marketplace ("Bespoke") exploring what drives customer satisfaction, artisan performance, and platform GMV. Built over a 72-hour competition sprint.
 
 ## Research Questions
 
@@ -28,9 +28,9 @@ End-to-end analysis of a fictional handmade goods marketplace ("Bespoke") explor
 
 - **Delivery is the dominant satisfaction driver.** On-time orders average 4.2★; orders just 5–10 days late drop to 1.9★. 76% of all 1-star reviews are delivery complaints.
 - **Late delivery is mostly artisan-caused.** 57% of late deliveries trace back to slow shipping by the artisan, not the carrier.
-- **The "Danger Zone" is a concentrated risk.** 18% of artisans (low satisfaction, high revenue) contribute 32% of GMV while generating 49% of 1-star reviews — and satisfaction has near-zero correlation with revenue (r = -0.022), meaning the platform has no natural self-correcting mechanism.
+- **The "Danger Zone" is a concentrated risk.** 18% of artisans (low satisfaction, high revenue) contribute 32% of GMV while generating 49% of 1-star reviews and satisfaction has near-zero correlation with revenue (r = -0.022), meaning the platform has no natural self-correcting mechanism.
 - **Three interventions proposed:** recalibrate delivery estimates using historical shipping data, introduce a verified fast-shipper badge (avg ship time < 3 days, rating > 4★), and audit carrier performance by region to address the remaining 43% of carrier-caused delays.
-- **The 1-star classifier is intentionally limited.** Built on pre-transaction signals only (listing quality, tenure, price tier), it achieves AUC ~0.57 — near chance. This is itself a finding: observable artisan characteristics have little predictive power without delivery performance data, confirming that delivery behavior is the dominant driver of poor outcomes rather than anything identifiable upfront.
+- **The 1-star classifier is intentionally limited.** Built on pre-transaction signals only (listing quality, tenure, price tier), it achieves AUC ~0.57 (near chance). This is itself a finding: observable artisan characteristics have little predictive power without delivery performance data, confirming that delivery behavior is the dominant driver of poor outcomes rather than anything identifiable upfront.
 
 ## Repo Structure
 
